@@ -46,7 +46,7 @@
                 @if($kontak->alamat!='')
                     <div class="w-full md:w-6/12 lg:w-3/12">
                         <div class="footer-widget mb-10 mx-3">
-                            <h3 class="mb-6 text-white">Kontak/h3>
+                            <h3 class="mb-6 text-white">Kontak</h3>
                             <ul class="links">
                                 <li> <a href="{{menu_url($link)}}">{{ strtolower($link->alamat) }}</a> </li>
                                 <li> <a href="{{menu_url($link)}}">{{ strtolower($link->telepon) }}</a> </li>
